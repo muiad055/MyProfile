@@ -1,0 +1,162 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Dorcas Muia - Profile</title> 
+    <style> 
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        } 
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            min-height: 100vh; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+        } 
+        .profile-card { 
+            background: white; 
+            border-radius: 20px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+            max-width: 450px; 
+            width: 100%; 
+            padding: 30px; 
+            text-align: center; 
+            transition: transform 0.3s; 
+        } 
+        .profile-card:hover { 
+            transform: translateY(-10px); 
+        } 
+        .profile-img { 
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%; 
+            object-fit: cover; 
+            border: 4px solid #667eea; 
+            margin-bottom: 20px; 
+        } 
+        h1 { 
+            color: #333; 
+            margin-bottom: 5px; 
+        } 
+        .title { 
+            color: #667eea; 
+            font-size: 18px; 
+            margin-bottom: 15px; 
+        } 
+        .bio { 
+            color: #666; 
+            line-height: 1.6; 
+            margin-bottom: 20px; 
+        } 
+        .info-section { 
+            text-align: left; 
+            margin: 20px 0; 
+            padding: 15px; 
+            background: #f8f9fa; 
+            border-radius: 10px; 
+        } 
+        .info-item { 
+            margin: 10px 0; 
+            display: flex; 
+            align-items: center; 
+        } 
+        .info-label { 
+            font-weight: bold; 
+            width: 100px; 
+            color: #333; 
+        } 
+        .skills { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            margin: 20px 0; 
+            justify-content: center; 
+        } 
+        .skill-tag { 
+            background: #667eea; 
+            color: white; 
+            padding: 8px 18px; 
+            border-radius: 25px; 
+            font-size: 14px; 
+            font-weight: 500; 
+        } 
+        .social-links { 
+            display: flex; 
+            justify-content: center; 
+            gap: 15px; 
+            margin-top: 20px; 
+        } 
+        .social-btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background: #667eea; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            transition: background 0.3s; 
+        } 
+        .social-btn:hover { 
+            background: #764ba2; 
+        } 
+        .education { 
+            background: #e8f0fe; 
+            padding: 10px; 
+            border-radius: 10px; 
+            margin-top: 10px; 
+            text-align: center; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div class="profile-card"> 
+        <img src="profile.png" alt="Dorcas Muia" class="profile-img">
+        <h1>Dorcas Muia</h1> 
+        <div class="title">Business Management Professional & Developer</div> 
+        <div class="bio"> 
+            KCA Graduate with 3+ years experience in Business Management. 
+            Passionate about combining business acumen with technical skills. 
+        </div> 
+        <div class="info-section"> 
+            <div class="info-item"> 
+                <span class="info-label"> Email:</span> 
+                <span>muiad055@gmail.com</span> 
+            </div> 
+            <div class="info-item"> 
+                <span class="info-label"> Location:</span> 
+                <span>Nairobi, Kenya</span> 
+            </div> 
+            <div class="info-item"> 
+                <span class="info-label">Education:</span> 
+                <span>KCA University Graduate</span> 
+            </div> 
+            <div class="info-item"> 
+                <span class="info-label"> Experience:</span> 
+                <span>3+ Years in Business Management</span> 
+            </div> 
+        </div> 
+        <h3> Core Skills </h3> 
+        <div class="skills"> 
+            <span class="skill-tag">Networking</span> 
+            <span class="skill-tag"> Accounting</span> 
+            <span class="skill-tag"> Programming</span> 
+            <span class="skill-tag"> JavaScript</span> 
+            <span class="skill-tag"> Business Management</span> 
+            <span class="skill-tag"> Data Analysis</span> 
+        </div> 
+        <div class="education"> 
+            <strong>KCA University Graduate | 3+ Years Business Experience</strong> 
+        </div> 
+        <div class="social-links"> 
+            <a href="mailto:muiad055@gmail.com" class="social-btn">Email Me</a> 
+            <a href="#" class="social-btn">Portfolio</a> 
+            <a href="#" class="social-btn">LinkedIn</a> 
+        </div> 
+    </div> 
+</body> 
+</html> 
