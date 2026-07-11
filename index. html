@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dorcas Muia - My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f0f2f5;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            max-width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a2e;
+        }
+        .title {
+            color: #2d89ef;
+        }
+        .btn {
+            background: #2d89ef;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #1a5bbf;
+        }
+        .info {
+            text-align: left;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .info p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Dorcas Muia</h1>
+        <p class="title">CPP 702 Student</p>
+        <p>I'm a passionate student at KCA University studying CPP 702. I love technology and learning new things!</p>
+
+        <div class="info">
+            <p><strong>📍</strong> Nairobi, Kenya</p>
+            <p><strong>📧</strong> 24/06123@students.kcau.ac.ke</p>
+            <p><strong>🎓</strong> KCA University</p>
+            <p><strong>📚</strong> CPP 702</p>
+        </div>
+
+        <a href="mailto:24/06123@students.kcau.ac.ke" class="btn">Contact Me</a>
+    </div>
+</body>
+</html>
